@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+.container {
+    height: 100vh;
+    text-align: center;
+}
+
+.contant {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: "Playwrite NZ", cursive;
+}
+
+p {
+    font-size: 35px;
+}
+
+button {
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    transition: all 0.25s;
+}
+
+button:hover {
+    background-color: green;
+}
